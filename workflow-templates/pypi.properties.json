@@ -1,0 +1,15 @@
+{
+    "name": "Publish Python",
+    "description": "Build python wheels & sdist distributions, publish them to pypi and attach them to a github release.",
+    "iconName": "pypi",
+    "categories": [
+        "deployment",
+        "Automation",
+        "Python"
+    ],
+    "filePatterns": [
+        "setup.py",
+        "setup.cfg",
+        "pyproject.toml"
+    ]
+}
