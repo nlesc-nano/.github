@@ -46,6 +46,8 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_TOKEN }}
+          verbose: true
+          print-hash: true
 
       - name: Attach wheels to GitHub release
         if: github.event_name == 'release'
